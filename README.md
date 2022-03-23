@@ -51,5 +51,5 @@ Simply follow instructions from the notebook. As for the data, please upload the
 
 * WGAN training [Colab link](https://colab.research.google.com/drive/1ZJCCkUKbCEx7KElrAkxfjdQlHwvLhoE7?usp=sharing#scrollTo=yXrWVjI-FtRC)
 * DCGAN training [Colab link](https://colab.research.google.com/drive/1E2Nqy5W8OYfu_fuXmyzL5pcgDjTlRsTc?usp=sharing)
-* Evaluation [Colab link](https://drive.google.com/file/d/1rUJuy8RzYuLG5wuriTlRHKsX6l2buThO/view?usp=sharing). All extra code needed you will find in this repository.
+* Evaluation [Colab link](https://drive.google.com/file/d/1rUJuy8RzYuLG5wuriTlRHKsX6l2buThO/view?usp=sharing). All extra code needed you will find in this repository. You may find the checkpoints [here](https://drive.google.com/drive/folders/16M2JH1jh_xlp6kZClcf2Hbbi8EHmOA-z?usp=sharing).
 
