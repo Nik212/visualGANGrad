@@ -2,9 +2,7 @@
 
 This is the repository dedicated to a course project done for Machine Learning course at Skolkovo Institute of Science and Technology. 
 
-**The goal** of our empirical study is too understand how the knowledge of the gradient of the divergence with respect to the generator can be applied to improving the quality of generated data (in our case, imagese) 
-
-For details, please see our presentation or report.
+**The goal** of our empirical study is too understand how the knowledge of the gradient of the divergence metric with respect to the generator can be applied to improving the quality of generated data (in our case, images)
 
 In our study, we use a custom implementation of GAN based on https://github.com/LynnHo/DCGAN-LSGAN-WGAN-GP-DRAGAN-Pytorch
 
@@ -13,21 +11,21 @@ In our study, we use a custom implementation of GAN based on https://github.com/
 
 ### Results
 
-IS, FID and LPIPS scores of DCGAN on the CelebA dataset at different epochs.
+IS, and FID scores of DCGAN on the CelebA dataset at different epochs.
 
-| Epoch | IS ↑  | FID ↓ | LPIPS ↓ |
-|-------|-------|-------|---------|
-| 5     | 1.826 | 26.64 | 0.26    |
-| 25    | 1.904 | 11.00 | 0.29    |
-| 49    | 1.969 | 8.87  | 0.29    |
+| Epoch | IS ↑  | FID ↓ |
+|-------|-------|-------|
+| 5     | 1.826 | 26.64 |
+| 25    | 1.904 | 11.00 |
+| 49    | 1.969 | 8.87  |
 
-IS, FID and LPIPS scores of WGAN on the CelebA dataset at different epochs.
+IS and FID scores of WGAN on the CelebA dataset at different epochs.
 
-| Epoch | IS ↑  | FID ↓ | LPIPS ↓ |
-|-------|-------|-------|---------|
-| 5     | 1.967 | 17.27 | 0.227   |
-| 15    | 1.956 | 12.55 | 0.204   |
-| 29    | 2.016 | 10.43 | 0.217   |
+| Epoch | IS ↑  | FID ↓ |
+|-------|-------|-------|
+| 5     | 1.967 | 17.27 |
+| 15    | 1.956 | 12.55 |
+| 29    | 2.016 | 10.43 |
 
 
 ### Usage
